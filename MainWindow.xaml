@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Hello!" Height="450" Width="800">
     <Grid>
-        <Label Content="2022 Sam Cox. Original by Computer Science channel." HorizontalAlignment="Left" Margin="0,408,0,0" VerticalAlignment="Bottom" Width="800"/>
-        <Label Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,383,0,0" VerticalAlignment="Top"/>
+        <Label Content="Select a message." HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton x:Name="RadioButton01" Content="Hello." HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="RadioButton02" Content="Goodbye." HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top"/>
+        <Button Content="Submit." HorizontalAlignment="Center" Margin="0,270,0,0" VerticalAlignment="Top" Click="Button_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="Credits" Content="Credits." HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Click="Credits_Click" RenderTransformOrigin="0.5,0.5"/>
 
     </Grid>
 </Window>

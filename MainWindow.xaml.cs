@@ -25,5 +25,36 @@ namespace WPF01
         {
             InitializeComponent();
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        // Hello text.
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (RadioButton01.IsChecked == true)
+            {
+                MessageBox.Show("Hello.");
+            }
+            else if (RadioButton02.IsChecked == true)
+            {
+                MessageBox.Show("Goodbye.");
+            }
+        }
+
+        private void Credits_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Original implemenation by Computer Science YouTube channel: https://youtu.be/Wh2HMyv8unM");
+        }
+
+        // Goodbye text.
     }
 }
