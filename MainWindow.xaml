@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Hello!" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="2022 Sam Cox. Original by Computer Science channel." HorizontalAlignment="Left" Margin="0,408,0,0" VerticalAlignment="Bottom" Width="800"/>
+        <Label Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,383,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

@@ -17,6 +17,7 @@ namespace WPF01
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
+    /// Original by Computer Science channel: https://youtu.be/Wh2HMyv8unM
     /// </summary>
     public partial class MainWindow : Window
     {
